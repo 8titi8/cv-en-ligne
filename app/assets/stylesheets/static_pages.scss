@@ -1,0 +1,13 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#1-banner {
+  background-image: url("<%= asset_path 'mer.jpg' %>");
+  background-position: bottom bottom;
+  -webkit-clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%)
+}
+
+body h1 {
+  color: red!important;
+}
