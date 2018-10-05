@@ -8,6 +8,10 @@
   -webkit-clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%)
 }
 
-body h1 {
-  color: red!important;
+.img-fluid {
+  max-width: 50%!important;
+  margin-top: 8%;
+  margin-bottom: 0;
+  margin-right: 5%;
+  margin-left: 5%;
 }
